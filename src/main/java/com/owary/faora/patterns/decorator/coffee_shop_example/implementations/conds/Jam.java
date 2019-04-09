@@ -5,15 +5,15 @@
  */
 package com.owary.faora.patterns.decorator.coffee_shop_example.implementations.conds;
 
-import com.azercell.pattern.interfaces.Condiment;
+//import com.azercell.pattern.interfaces.Condiment;
 
 /**
  *
  * @author Mensur Owary
  */
-public class Jam implements Condiment{
+public class Jam { //implements Condiment{
 
-    @Override
+//    @Override
     public double cost() {
         return 7.15;
     }

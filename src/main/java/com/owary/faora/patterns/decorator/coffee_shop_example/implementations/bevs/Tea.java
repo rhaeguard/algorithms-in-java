@@ -5,15 +5,15 @@
  */
 package com.owary.faora.patterns.decorator.coffee_shop_example.implementations.bevs;
 
-import com.azercell.pattern.interfaces.Beverage;
+//import com.azercell.pattern.interfaces.Beverage;
 
 /**
  *
  * @author Mensur Owary
  */
-public class Tea implements Beverage{
+public class Tea { // implements Beverage{
 
-    @Override
+//    @Override
     public double cost() {
         return 5.60;
     }
