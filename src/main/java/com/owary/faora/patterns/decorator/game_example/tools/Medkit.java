@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.owary.faora.tools;
+package com.owary.faora.patterns.decorator.game_example.tools;
 
-import com.owary.faora.model.MedicalTool;
-import com.owary.faora.model.Player;
+import com.owary.faora.patterns.decorator.game_example.model.MedicalTool;
+import com.owary.faora.patterns.decorator.game_example.model.Player;
 
 /**
  *
  * @author Mensur Owary
  */
-public class Medkit extends Player implements MedicalTool{
+public class Medkit extends Player implements MedicalTool {
 
     private final Player player;
     

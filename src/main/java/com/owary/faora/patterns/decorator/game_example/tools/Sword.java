@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.owary.faora.tools;
+package com.owary.faora.patterns.decorator.game_example.tools;
 
-import com.owary.faora.model.Player;
-import com.owary.faora.model.Weapon;
+import com.owary.faora.patterns.decorator.game_example.model.Player;
+import com.owary.faora.patterns.decorator.game_example.model.Weapon;
 
 /**
  *
  * @author Mensur Owary
  */
-public class Sword extends Player implements Weapon{
+public class Sword extends Player implements Weapon {
     
     private Player player;
     private final double attack = 0.4;

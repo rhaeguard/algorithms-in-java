@@ -6,6 +6,8 @@ import java.util.stream.IntStream;
 
 public class Utils {
 
+    private static final Random random = new Random();
+
     public static int maxInt(int[] arr){
         return IntStream.of(arr).max().getAsInt();
     }
@@ -45,6 +47,14 @@ public class Utils {
         T temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
+    }
+
+    public static int[] getRandomArrayOfSize (int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = random.nextInt(150);
+        }
+        return arr;
     }
 
 }

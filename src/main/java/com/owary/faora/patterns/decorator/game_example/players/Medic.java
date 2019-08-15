@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.owary.faora.players;
+package com.owary.faora.patterns.decorator.game_example.players;
 
-import com.owary.faora.model.Player;
+import com.owary.faora.patterns.decorator.game_example.model.Player;
 
 /**
  *
  * @author Mensur Owary
  */
-public class Medic extends Player{
+public class Medic extends Player {
     
     private final double heal = .23;
 

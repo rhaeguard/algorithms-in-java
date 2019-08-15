@@ -11,6 +11,6 @@ package com.owary.faora.patterns.decorator.coffee_shop_example.interfaces;
  */
 public interface Discount {
 
-    public double apply(double d);
+    double apply(double d);
     
 }

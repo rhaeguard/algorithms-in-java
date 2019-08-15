@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.owary.faora;
+package com.owary.faora.patterns.decorator.game_example;
 
-import com.owary.faora.armors.Light;
-import com.owary.faora.model.Player;
-import com.owary.faora.players.Medic;
-import com.owary.faora.players.Warrior;
-import com.owary.faora.tools.Medkit;
-import com.owary.faora.tools.Sword;
+import com.owary.faora.patterns.decorator.game_example.armors.Light;
+import com.owary.faora.patterns.decorator.game_example.model.Player;
+import com.owary.faora.patterns.decorator.game_example.players.Medic;
+import com.owary.faora.patterns.decorator.game_example.players.Warrior;
+import com.owary.faora.patterns.decorator.game_example.tools.Medkit;
+import com.owary.faora.patterns.decorator.game_example.tools.Sword;
 
 /**
  *
